@@ -1,0 +1,8 @@
+.ach__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1.3rem; }
+.ach__card { display: flex; gap: 1.1rem; padding: 1.5rem; height: 100%; }
+.ach__icon { flex: none; width: 52px; height: 52px; border-radius: 14px; display: grid; place-items: center; color: #fff; background: var(--gradient); }
+.ach__card--award .ach__icon { background: linear-gradient(135deg, #f59e0b, #f97316); }
+.ach__type { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); }
+.ach__card h3 { font-size: 1.05rem; margin: 0.2rem 0 0.4rem; }
+.ach__card p { color: var(--text-muted); font-size: 0.92rem; }
+@media (max-width: 420px) { .ach__grid { grid-template-columns: 1fr; } }

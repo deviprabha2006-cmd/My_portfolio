@@ -1,0 +1,22 @@
+:root {
+  /* Palette – light theme. Change here to re-theme the whole site. */
+  --bg: #f8faff;
+  --bg-alt: #eef3fd;
+  --surface: #ffffff;
+  --border: #e3e9f5;
+  --text: #0f1b3d;
+  --text-muted: #5a6788;
+  --primary: #3b5bdb;
+  --primary-dark: #2b44b5;
+  --accent: #7c5cff;
+  --gradient: linear-gradient(135deg, #3b5bdb 0%, #7c5cff 100%);
+
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-heading: "Plus Jakarta Sans", "Inter", sans-serif;
+
+  --radius: 16px;
+  --shadow-sm: 0 2px 8px rgba(30, 50, 120, 0.06);
+  --shadow-md: 0 12px 32px rgba(30, 50, 120, 0.1);
+  --nav-height: 68px;
+  --container: 1120px;
+}

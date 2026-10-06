@@ -1,0 +1,4 @@
+.skills__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.4rem; }
+.skills__card { padding: 1.8rem; height: 100%; }
+.skills__card h3 { font-size: 1.05rem; margin-bottom: 1rem; }
+.skills__tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
